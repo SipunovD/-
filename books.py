@@ -5,4 +5,8 @@ def add_book(books):
       title, author = input(str).split()
     except:
       print('Повторите ввод')
-      break
+    books.append((
+      'title': title,
+      'author': author
+    ))
+    break
